@@ -1,15 +1,31 @@
-## Put comments here that give an overall description of what your
-## functions do
+## cachematrix.R
+## ProgrammingAssignment2
+## https://class.coursera.org/rprog-014/
+## S.Terry
+## 5/15/2015
+#
 
-## Write a short comment describing this function
-
+# Function: makeCacheMatrix
+# Description:
+#   This function creates a special "matrix" object that can cache its inverse.
+# Parameters:
+#   x, an invertable matrix
+# Returns:
+#   A special "matrix" that can be used by cacheSolve
+#
 makeCacheMatrix <- function(x = matrix()) {
 
 }
 
 
-## Write a short comment describing this function
-
+# Function: cacheSolve
+# Description:
+#   This function computes the inverse of the special "matrix" returned by makeCacheMatrix above.
+# Parameters:
+#   x, a matrix that was created with 'makeCacheMatrix'
+# Returns:
+#   A matrix that is the inverse of 'x'
+#
 cacheSolve <- function(x, ...) {
-        ## Return a matrix that is the inverse of 'x'
+
 }
