@@ -3,7 +3,8 @@
 ## https://class.coursera.org/rprog-014/
 ## S.Terry
 ## 5/15/2015
-#
+## Revisions:
+#  5/15/2015 - initial
 
 # Function: makeCacheMatrix
 # Description:
